@@ -3,6 +3,7 @@
 *.tfstate.backup
 *.tfstate.lock.info
 .terraform
+*.accesskey
 
 # logs
 *.log
