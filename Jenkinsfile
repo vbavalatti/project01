@@ -25,7 +25,6 @@ pipeline {
       }
     }
 
-    
     stage('Validate Destroy') {
       input {
         message "Do you want to destroy Terraform Infra?"
