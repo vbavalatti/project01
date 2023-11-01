@@ -1,7 +1,7 @@
 pipeline {
   agent any
   environment {
-    AWS_SHARED_CREDENTIALS_FILE='/root/.aws/credentials'
+    AWS_SECRET_ACCESS_KEY = credentials("AWS Credentials")
   }
 
   stages {
