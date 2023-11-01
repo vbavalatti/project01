@@ -8,5 +8,6 @@
 *.log
 
 # Directories
-.terraform/
+**/.terraform/*
+.terraform
 .vagrant/
