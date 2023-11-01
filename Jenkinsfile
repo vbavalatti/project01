@@ -1,7 +1,6 @@
 pipeline {
   agent any
   environment {
-    TF_IN_AUTOMATION = 'true'
     AWS_SHARED_CREDENTIALS_FILE='/root/.aws/credentials'
   }
 
